@@ -11,18 +11,19 @@ interface LogoProps {
 
 /**
  * Hexagonal vault badge with "WV" monogram and cyan accent stroke.
- * Designed to work on both dark (default) and light backgrounds.
+ * "light" variant = for light/white backgrounds (current theme).
+ * "dark" variant = for dark backgrounds.
  */
 export function LogoMark({
-  variant = "dark",
+  variant = "light",
   className = "",
 }: {
   variant?: "dark" | "light";
   className?: string;
 }) {
-  const stroke = variant === "dark" ? "#00E5FF" : "#0A0A0B";
+  const stroke = variant === "dark" ? "#00E5FF" : "#00B8D4";
   const textFill = variant === "dark" ? "#E8E8EC" : "#0A0A0B";
-  const innerBg = variant === "dark" ? "#131316" : "#FAF9F6";
+  const innerBg = variant === "dark" ? "#131316" : "#FFFFFF";
 
   return (
     <svg
@@ -73,8 +74,10 @@ export default function Logo({
   className = "",
   showText = true,
 }: LogoProps) {
-  const textColor =
-    variant === "dark" ? "text-silver-bright" : "text-ink";
+  // In light theme: silver-bright = #1A1A1E (dark) — visible on light bg
+  // In dark theme: silver-bright = #E8E8EC (light) — visible on dark bg
+  // Always use silver-bright so it adapts to the theme tokens.
+  const textColor = "text-silver-bright";
 
   return (
     <Link
