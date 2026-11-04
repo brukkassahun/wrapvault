@@ -11,6 +11,7 @@ import FloatingContact from "@/components/FloatingContact";
 import ImageProtection from "@/components/ImageProtection";
 
 import { site } from "@/lib/site";
+import "./globals.css";
 
 const inter = Inter({
   subsets: ["latin"],
