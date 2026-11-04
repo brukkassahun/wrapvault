@@ -1,0 +1,126 @@
+@import "tailwindcss";
+
+/* ============================================================
+   WrapVault Design System
+   Dark premium automotive aesthetic — charcoal base, vibrant accents
+   The product IS color, so the UI frames color like a gallery
+   ============================================================ */
+
+@theme {
+  --color-ink: #0A0A0B;
+  --color-ink-light: #131316;
+  --color-ink-card: #1A1A1E;
+  --color-ink-border: #2A2A2E;
+  --color-cream: #FAF9F6;
+  --color-silver: #8B8B90;
+  --color-silver-light: #A0A0A5;
+  --color-silver-bright: #E8E8EC;
+  --color-vault: #00E5FF;        /* electric cyan — primary accent */
+  --color-vault-glow: #00B8D4;
+  --color-flame: #FF3D71;        /* hot pink-red — secondary accent */
+  --color-signal: #00E676;       /* green — available status */
+  --color-flare: #FFAB00;        /* amber — featured status */
+  --color-slate: #6B7280;
+  --color-slate-light: #4B5563;
+  --color-slate-muted: #9CA3AF;
+
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  --font-display: "Inter", system-ui, -apple-system, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    background-color: var(--color-ink);
+    color: var(--color-silver-bright);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  ::selection {
+    background-color: var(--color-vault);
+    color: var(--color-ink);
+  }
+}
+
+@layer components {
+  .eyebrow {
+    @apply inline-flex items-center gap-2 rounded-full border border-ink-border bg-ink-light px-4 py-1.5 font-sans text-[11px] font-bold uppercase tracking-[0.22em] text-silver-light;
+  }
+
+  .display-xl {
+    @apply font-display text-4xl font-black uppercase leading-[1.05] tracking-tight sm:text-5xl lg:text-6xl;
+  }
+
+  .display-lg {
+    @apply font-display text-3xl font-black uppercase leading-[1.1] tracking-tight sm:text-4xl;
+  }
+
+  .display-md {
+    @apply font-display text-2xl font-black uppercase leading-[1.15] tracking-tight sm:text-3xl;
+  }
+
+  .title {
+    @apply font-display text-xl font-bold uppercase tracking-tight sm:text-2xl;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-full bg-vault px-7 py-3.5 font-sans text-xs font-bold uppercase tracking-[0.18em] text-ink transition-all duration-300 hover:bg-vault-glow hover:scale-[1.02] active:scale-[0.98];
+  }
+
+  .btn-ghost {
+    @apply inline-flex items-center justify-center gap-2 rounded-full border border-ink-border px-7 py-3.5 font-sans text-xs font-bold uppercase tracking-[0.18em] text-silver-bright transition-all duration-300 hover:border-vault hover:text-vault;
+  }
+
+  .btn-signal {
+    @apply inline-flex items-center justify-center gap-2 rounded-full bg-signal px-7 py-3.5 font-sans text-xs font-bold uppercase tracking-[0.18em] text-ink transition-all duration-300 hover:scale-[1.02] active:scale-[0.98];
+  }
+
+  .card-dark {
+    @apply rounded-2xl border border-ink-border bg-ink-card transition-all duration-300;
+  }
+
+  .input-field {
+    @apply w-full appearance-none rounded-xl border border-ink-border bg-ink-light px-5 py-3.5 font-sans text-sm font-medium text-silver-bright outline-none transition-colors focus:border-vault;
+  }
+
+  .badge {
+    @apply inline-flex items-center rounded-full px-2.5 py-0.5 font-sans text-[10px] font-bold uppercase tracking-[0.12em];
+  }
+  .badge-new {
+    @apply bg-signal/15 text-signal;
+  }
+  .badge-used {
+    @apply bg-flare/15 text-flare;
+  }
+  .badge-available {
+    @apply bg-signal/15 text-signal;
+  }
+  .badge-sold {
+    @apply bg-flame/15 text-flame;
+  }
+  .badge-reserved {
+    @apply bg-flare/15 text-flare;
+  }
+  .badge-featured {
+    @apply bg-vault/15 text-vault;
+  }
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-ink);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-ink-border);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-slate);
+}

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <path d="M24 2.5L41.5 12.75V33.25L24 43.5L6.5 33.25V12.75L24 2.5Z" fill="#0A0A0B" stroke="#00E5FF" stroke-width="1.5"/>
+  <path d="M24 7L37 14.5V29.5L24 37L11 29.5V14.5L24 7Z" fill="none" stroke="#00E5FF" stroke-width="0.8" opacity="0.4"/>
+  <!-- W letterform -->
+  <path d="M12 16L16 28L20 18L24 28L28 18L32 28L36 16" stroke="#00E5FF" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <!-- V accent at bottom -->
+  <path d="M18 33L24 37L30 33" stroke="#00E5FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.6"/>
+</svg>
