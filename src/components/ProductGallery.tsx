@@ -66,7 +66,7 @@ export default function ProductGallery({
                   : "linear-gradient(135deg, rgba(255,255,255,0.15) 0%, transparent 50%, rgba(255,255,255,0.05) 100%)",
             }}
           />
-          <div className="absolute bottom-4 left-4 rounded-lg bg-ink/60 px-3 py-1.5 backdrop-blur-sm">
+          <div className="absolute bottom-4 left-4 rounded-lg bg-white/80 px-3 py-1.5 backdrop-blur-sm">
             <p className="text-xs font-bold uppercase tracking-wider text-silver-bright">
               {colorFamily} · {finishType}
             </p>
@@ -85,7 +85,7 @@ export default function ProductGallery({
   return (
     <div className="space-y-4">
       {/* Main image */}
-      <div className="card-dark relative aspect-square overflow-hidden bg-ink-light">
+      <div className="card-dark relative aspect-square overflow-hidden bg-white">
         <img
           src={activeImage}
           alt={productName}

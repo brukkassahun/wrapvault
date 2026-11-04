@@ -168,7 +168,7 @@ function CategoryTab({
       className={`rounded-full border px-4 py-2 text-xs font-bold uppercase tracking-[0.12em] transition-all duration-200 ${
         isActive
           ? "border-vault bg-vault/10 text-vault"
-          : "border-ink-border bg-ink-light text-silver-light hover:border-silver-light hover:text-silver-bright"
+          : "border-ink-border bg-white text-silver-light hover:border-silver-light hover:text-silver-bright"
       }`}
     >
       {label}

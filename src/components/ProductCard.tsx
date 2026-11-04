@@ -21,6 +21,7 @@ const colorSwatches: Record<string, string> = {
   gold: "#D4AF37",
   brown: "#8B6F47",
   multi: "linear-gradient(135deg, #FF3D71, #FFAB00, #00E676, #00E5FF, #805AD5)",
+  clear: "linear-gradient(135deg, #E8F5E9, #F1F8E9, #E3F2FD, #E8EAF6)",
 };
 
 const statusLabels: Record<Product["status"], string> = {
@@ -50,7 +51,7 @@ export default function ProductCard({ product }: { product: Product }) {
       className="card-dark group flex flex-col overflow-hidden transition-all duration-300 hover:border-vault/40 hover:shadow-lg hover:shadow-vault/5"
     >
       {/* ─── Thumbnail / Swatch ─── */}
-      <div className="relative aspect-square overflow-hidden bg-ink-light">
+      <div className="relative aspect-square overflow-hidden bg-ink">
         {product.thumbnail || (product.images && product.images[0]) ? (
           <img
             src={product.thumbnail ?? product.images![0]}
@@ -94,7 +95,7 @@ export default function ProductCard({ product }: { product: Product }) {
         {/* Finish type badge */}
         {product.finish_type && (
           <div className="absolute bottom-3 left-3">
-            <span className="rounded-lg bg-ink/60 px-2.5 py-1 text-[10px] font-bold uppercase tracking-wider text-silver-bright backdrop-blur-sm">
+            <span className="rounded-lg bg-white/80 px-2.5 py-1 text-[10px] font-bold uppercase tracking-wider text-silver-bright backdrop-blur-sm">
               {product.finish_type}
             </span>
           </div>
@@ -124,7 +125,7 @@ export default function ProductCard({ product }: { product: Product }) {
         <div className="mt-4 flex items-center justify-between gap-3 pt-3 border-t border-ink-border">
           <div>
             <p className="text-[10px] font-medium uppercase tracking-wider text-silver">
-              Price
+              Per Roll (15.5m)
             </p>
             <p className="font-display text-lg font-black text-vault">
               {formatPrice(product.price_cny, code)}
@@ -134,7 +135,7 @@ export default function ProductCard({ product }: { product: Product }) {
           <button
             onClick={handleAddToCart}
             disabled={!isAvailable}
-            className="btn-primary !px-5 !py-2.5 text-[11px] disabled:cursor-not-allowed disabled:border-ink-border disabled:bg-ink-light disabled:text-silver disabled:hover:scale-100"
+            className="btn-primary !px-5 !py-2.5 text-[11px] disabled:cursor-not-allowed disabled:border-ink-border disabled:bg-white disabled:text-silver disabled:hover:scale-100"
             aria-label={`Add ${product.name} to cart`}
           >
             {isAvailable ? "Add to Cart" : "Unavailable"}

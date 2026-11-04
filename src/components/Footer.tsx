@@ -24,7 +24,7 @@ export default function Footer() {
   }
 
   return (
-    <footer className="relative border-t border-ink-border bg-ink-light">
+    <footer className="relative border-t border-ink-border bg-white">
       {/* ─── Newsletter CTA band ─── */}
       <div className="border-b border-ink-border">
         <div className="mx-auto max-w-7xl px-6 py-12 lg:px-10">

@@ -21,7 +21,7 @@ export default function FloatingContact() {
     <div className="fixed bottom-5 right-5 z-40 flex flex-col items-end gap-3">
       {/* WeChat tooltip */}
       {showWeChatTip && (
-        <div className="animate-fade-in rounded-xl border border-ink-border bg-ink-card px-4 py-2.5 shadow-2xl shadow-black/50">
+        <div className="animate-fade-in rounded-xl border border-ink-border bg-white px-4 py-2.5 shadow-2xl shadow-black/10">
           <p className="text-xs font-medium text-silver-bright">
             WeChat ID <span className="font-bold text-vault">{site.wechat}</span> copied to clipboard
           </p>
@@ -31,7 +31,7 @@ export default function FloatingContact() {
       {/* WeChat button */}
       <button
         onClick={handleWeChat}
-        className="group flex h-12 w-12 items-center justify-center rounded-full bg-ink-card border border-ink-border shadow-lg shadow-black/30 transition-all duration-300 hover:border-vault hover:scale-105"
+        className="group flex h-12 w-12 items-center justify-center rounded-full bg-white border border-ink-border shadow-lg shadow-black/10 transition-all duration-300 hover:border-vault hover:scale-105"
         aria-label="Copy WeChat ID"
         title={`WeChat: ${site.wechat}`}
       >

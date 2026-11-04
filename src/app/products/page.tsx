@@ -86,7 +86,7 @@ export default async function ProductsPage({
   return (
     <>
       {/* ─── Page header ─── */}
-      <section className="border-b border-ink-border bg-ink-light">
+      <section className="border-b border-ink-border bg-white">
         <div className="mx-auto max-w-7xl px-6 py-12 lg:px-10">
           <nav className="mb-4 flex items-center gap-2 text-[11px] font-medium text-silver">
             <Link href="/" className="transition-colors hover:text-vault">Home</Link>
@@ -141,7 +141,7 @@ export default async function ProductsPage({
               {activeFilters.map((f) => (
                 <span
                   key={f}
-                  className="rounded-full border border-ink-border bg-ink-light px-3 py-1 text-[10px] font-bold uppercase tracking-wider text-silver-light"
+                  className="rounded-full border border-ink-border bg-white px-3 py-1 text-[10px] font-bold uppercase tracking-wider text-silver-light"
                 >
                   {f}
                 </span>

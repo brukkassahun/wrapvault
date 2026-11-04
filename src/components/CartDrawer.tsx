@@ -20,6 +20,7 @@ const colorSwatches: Record<string, string> = {
   gold: "#D4AF37",
   brown: "#8B6F47",
   multi: "linear-gradient(135deg, #FF3D71, #FFAB00, #00E676, #00E5FF, #805AD5)",
+  clear: "linear-gradient(135deg, #E8F5E9, #F1F8E9, #E3F2FD, #E8EAF6)",
 };
 
 export default function CartDrawer() {
@@ -47,7 +48,7 @@ export default function CartDrawer() {
     <>
       {/* ─── Backdrop ─── */}
       <div
-        className={`fixed inset-0 z-50 bg-ink/70 backdrop-blur-sm transition-opacity duration-300 ${
+        className={`fixed inset-0 z-50 bg-black/40 backdrop-blur-sm transition-opacity duration-300 ${
           isOpen ? "opacity-100" : "pointer-events-none opacity-0"
         }`}
         onClick={close}
@@ -56,7 +57,7 @@ export default function CartDrawer() {
 
       {/* ─── Drawer ─── */}
       <aside
-        className={`fixed right-0 top-0 z-50 flex h-full w-full max-w-md flex-col border-l border-ink-border bg-ink-light shadow-2xl shadow-black/50 transition-transform duration-300 ease-out ${
+        className={`fixed right-0 top-0 z-50 flex h-full w-full max-w-md flex-col border-l border-ink-border bg-white shadow-2xl shadow-black/10 transition-transform duration-300 ease-out ${
           isOpen ? "translate-x-0" : "translate-x-full"
         }`}
         role="dialog"
@@ -75,7 +76,7 @@ export default function CartDrawer() {
           </div>
           <button
             onClick={close}
-            className="flex h-8 w-8 items-center justify-center rounded-lg text-silver transition-colors hover:bg-ink-card hover:text-silver-bright"
+            className="flex h-8 w-8 items-center justify-center rounded-lg text-silver transition-colors hover:bg-white hover:text-silver-bright"
             aria-label="Close cart"
           >
             <svg className="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
@@ -87,7 +88,7 @@ export default function CartDrawer() {
         {/* Items list */}
         {items.length === 0 ? (
           <div className="flex flex-1 flex-col items-center justify-center gap-4 px-6 text-center">
-            <div className="flex h-16 w-16 items-center justify-center rounded-full bg-ink-card">
+            <div className="flex h-16 w-16 items-center justify-center rounded-full bg-white">
               <svg className="h-8 w-8 text-silver" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
               </svg>
@@ -119,7 +120,7 @@ export default function CartDrawer() {
                 return (
                   <li
                     key={item.product.id}
-                    className="flex gap-3 rounded-xl border border-ink-border bg-ink-card p-3"
+                    className="flex gap-3 rounded-xl border border-ink-border bg-white p-3"
                   >
                     {/* Thumbnail / swatch */}
                     <Link

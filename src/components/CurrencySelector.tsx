@@ -44,7 +44,7 @@ export default function CurrencySelector({
       <button
         type="button"
         onClick={() => setOpen((v) => !v)}
-        className="inline-flex items-center gap-1.5 rounded-lg border border-ink-border bg-ink-light px-3 py-2 text-xs font-bold uppercase tracking-wider text-silver-bright transition-colors hover:border-vault hover:text-vault"
+        className="inline-flex items-center gap-1.5 rounded-lg border border-ink-border bg-white px-3 py-2 text-xs font-bold uppercase tracking-wider text-silver-bright transition-colors hover:border-vault hover:text-vault"
         aria-haspopup="listbox"
         aria-expanded={open}
         aria-label="Select currency"
@@ -69,7 +69,7 @@ export default function CurrencySelector({
 
       {open && (
         <ul
-          className="absolute right-0 z-50 mt-2 w-48 overflow-hidden rounded-xl border border-ink-border bg-ink-card py-1 shadow-2xl shadow-black/50"
+          className="absolute right-0 z-50 mt-2 w-48 overflow-hidden rounded-xl border border-ink-border bg-white py-1 shadow-2xl shadow-black/10"
           role="listbox"
         >
           {currencies.map((c) => (
@@ -80,7 +80,7 @@ export default function CurrencySelector({
                   setCode(c.code);
                   setOpen(false);
                 }}
-                className={`flex w-full items-center justify-between px-4 py-2.5 text-sm font-medium transition-colors hover:bg-ink-light ${
+                className={`flex w-full items-center justify-between px-4 py-2.5 text-sm font-medium transition-colors hover:bg-white ${
                   c.code === code ? "text-vault" : "text-silver-bright"
                 }`}
                 role="option"

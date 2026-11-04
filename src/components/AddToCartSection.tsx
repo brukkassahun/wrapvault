@@ -67,7 +67,7 @@ export default function AddToCartSection({ product }: AddToCartSectionProps) {
         <button
           onClick={() => addItem(product, quantity)}
           disabled={!isAvailable}
-          className="btn-primary w-full disabled:cursor-not-allowed disabled:border-ink-border disabled:bg-ink-light disabled:text-silver disabled:hover:scale-100"
+          className="btn-primary w-full disabled:cursor-not-allowed disabled:border-ink-border disabled:bg-white disabled:text-silver disabled:hover:scale-100"
         >
           {isAvailable ? (
             <>

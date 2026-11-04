@@ -68,7 +68,7 @@ export function LogoMark({
 }
 
 export default function Logo({
-  variant = "dark",
+  variant = "light",
   href = "/",
   className = "",
   showText = true,

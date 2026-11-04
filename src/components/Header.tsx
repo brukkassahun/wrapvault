@@ -39,7 +39,7 @@ export default function Header() {
     <header
       className={`fixed inset-x-0 top-0 z-50 transition-all duration-300 ${
         scrolled
-          ? "border-b border-ink-border bg-ink/90 backdrop-blur-lg"
+          ? "border-b border-ink-border bg-white/90 backdrop-blur-lg"
           : "border-b border-transparent bg-transparent"
       }`}
     >
@@ -79,7 +79,7 @@ export default function Header() {
           {/* Cart button */}
           <button
             onClick={open}
-            className="relative flex h-10 w-10 items-center justify-center rounded-lg border border-ink-border bg-ink-light text-silver-bright transition-colors hover:border-vault hover:text-vault"
+            className="relative flex h-10 w-10 items-center justify-center rounded-lg border border-ink-border bg-white text-silver-bright transition-colors hover:border-vault hover:text-vault"
             aria-label={`Open cart (${totalItems} items)`}
           >
             <svg className="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
@@ -95,7 +95,7 @@ export default function Header() {
           {/* Mobile hamburger */}
           <button
             onClick={() => setMobileOpen((v) => !v)}
-            className="flex h-10 w-10 items-center justify-center rounded-lg border border-ink-border bg-ink-light text-silver-bright transition-colors hover:border-vault hover:text-vault lg:hidden"
+            className="flex h-10 w-10 items-center justify-center rounded-lg border border-ink-border bg-white text-silver-bright transition-colors hover:border-vault hover:text-vault lg:hidden"
             aria-label="Toggle menu"
             aria-expanded={mobileOpen}
           >
@@ -117,12 +117,12 @@ export default function Header() {
         <div className="lg:hidden">
           {/* Backdrop */}
           <div
-            className="fixed inset-0 top-16 z-40 bg-ink/80 backdrop-blur-sm"
+            className="fixed inset-0 top-16 z-40 bg-black/20 backdrop-blur-sm"
             onClick={() => setMobileOpen(false)}
           />
 
           {/* Menu panel */}
-          <nav className="relative z-50 border-b border-ink-border bg-ink-light px-6 py-6">
+          <nav className="relative z-50 border-b border-ink-border bg-white px-6 py-6">
             <ul className="space-y-1">
               {navLinks.map((link) => {
                 const isActive =
@@ -134,8 +134,8 @@ export default function Header() {
                       href={link.href}
                       className={`block rounded-xl px-4 py-3.5 text-sm font-bold uppercase tracking-[0.14em] transition-colors ${
                         isActive
-                          ? "bg-ink-card text-vault"
-                          : "text-silver-bright hover:bg-ink-card hover:text-vault"
+                          ? "bg-ink text-vault"
+                          : "text-silver-bright hover:bg-ink hover:text-vault"
                       }`}
                     >
                       {link.label}

@@ -6,7 +6,7 @@ export interface Product {
   sku: string;
   name: string;
   series: string;
-  category: "pet-color-change" | "self-healing";
+  category: "pet-color-change" | "self-healing" | "ppf";
   finish_type: string;
   color_family: string;
   price_cny: number;
@@ -47,7 +47,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -75,7 +75,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -103,7 +103,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -131,7 +131,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -159,7 +159,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -187,7 +187,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -215,7 +215,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -243,7 +243,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -271,7 +271,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -299,7 +299,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -327,7 +327,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -355,7 +355,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -383,7 +383,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -411,7 +411,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -439,7 +439,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -467,7 +467,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -495,7 +495,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -523,7 +523,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -551,7 +551,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -579,7 +579,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -607,7 +607,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -635,7 +635,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -663,7 +663,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -691,7 +691,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -719,7 +719,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -747,7 +747,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -775,7 +775,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -803,7 +803,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -831,7 +831,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -859,7 +859,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -887,7 +887,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -915,7 +915,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -943,7 +943,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -971,7 +971,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -999,7 +999,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -1027,7 +1027,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -1055,7 +1055,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -1083,7 +1083,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -1111,7 +1111,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -1139,7 +1139,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -1167,7 +1167,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -1195,7 +1195,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -1223,7 +1223,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -1251,7 +1251,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -1279,7 +1279,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -1307,7 +1307,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -1335,7 +1335,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -1363,7 +1363,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -1391,7 +1391,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -1419,7 +1419,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -1447,7 +1447,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -1475,7 +1475,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -1503,7 +1503,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -1531,7 +1531,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -1559,7 +1559,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -1587,7 +1587,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -1615,7 +1615,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -1643,7 +1643,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -1671,7 +1671,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -1699,7 +1699,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -1727,7 +1727,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -1755,7 +1755,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -1783,7 +1783,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -1811,7 +1811,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -1839,7 +1839,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -1867,7 +1867,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -1895,7 +1895,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -1923,7 +1923,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -1951,7 +1951,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -1979,7 +1979,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -2007,7 +2007,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -2035,7 +2035,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -2063,7 +2063,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -2091,7 +2091,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -2119,7 +2119,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -2147,7 +2147,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -2175,7 +2175,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -2203,7 +2203,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -2231,7 +2231,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -2259,7 +2259,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -2287,7 +2287,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -2315,7 +2315,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -2343,7 +2343,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -2371,7 +2371,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -2399,7 +2399,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -2427,7 +2427,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -2455,7 +2455,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -2483,7 +2483,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -2511,7 +2511,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -2539,7 +2539,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -2567,7 +2567,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -2595,7 +2595,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -2623,7 +2623,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -2651,7 +2651,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -2679,7 +2679,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -2707,7 +2707,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -2735,7 +2735,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -2763,7 +2763,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -2791,7 +2791,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -2819,7 +2819,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -2847,7 +2847,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -2875,7 +2875,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -2903,7 +2903,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -2931,7 +2931,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -2959,7 +2959,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -2987,7 +2987,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -3015,7 +3015,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -3043,7 +3043,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -3071,7 +3071,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -3099,7 +3099,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -3127,7 +3127,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -3155,7 +3155,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -3183,7 +3183,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -3211,7 +3211,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -3239,7 +3239,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -3267,7 +3267,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -3295,7 +3295,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -3323,7 +3323,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -3351,7 +3351,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -3379,7 +3379,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -3407,7 +3407,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -3435,7 +3435,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -3463,7 +3463,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -3491,7 +3491,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -3519,7 +3519,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -3547,7 +3547,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -3575,7 +3575,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -3603,7 +3603,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -3631,7 +3631,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -3659,7 +3659,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -3687,7 +3687,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -3715,7 +3715,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -3743,7 +3743,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -3771,7 +3771,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -3799,7 +3799,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -3827,7 +3827,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -3855,7 +3855,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -3883,7 +3883,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -3911,7 +3911,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -3939,7 +3939,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -3967,7 +3967,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -3995,7 +3995,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -4023,7 +4023,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -4051,7 +4051,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -4079,7 +4079,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -4107,7 +4107,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -4135,7 +4135,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -4163,7 +4163,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -4191,7 +4191,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -4219,7 +4219,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -4247,7 +4247,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -4275,7 +4275,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -4303,7 +4303,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -4331,7 +4331,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -4359,7 +4359,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -4387,7 +4387,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -4415,7 +4415,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -4443,7 +4443,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -4471,7 +4471,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -4499,7 +4499,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -4527,7 +4527,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -4555,7 +4555,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -4583,7 +4583,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -4611,7 +4611,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -4639,7 +4639,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -4667,7 +4667,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -4695,7 +4695,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -4723,7 +4723,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -4751,7 +4751,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -4779,7 +4779,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -4807,7 +4807,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -4835,7 +4835,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -4863,7 +4863,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -4891,7 +4891,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -4919,7 +4919,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -4947,7 +4947,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -4975,7 +4975,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -5003,7 +5003,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -5031,7 +5031,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -5059,7 +5059,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -5087,7 +5087,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -5115,7 +5115,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -5143,7 +5143,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -5171,7 +5171,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -5199,7 +5199,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -5227,7 +5227,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -5255,7 +5255,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -5283,7 +5283,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -5311,7 +5311,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -5339,7 +5339,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -5367,7 +5367,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -5395,7 +5395,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -5423,7 +5423,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -5451,7 +5451,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -5479,7 +5479,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -5507,7 +5507,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -5535,7 +5535,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -5563,7 +5563,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -5591,7 +5591,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -5619,7 +5619,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -5647,7 +5647,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -5675,7 +5675,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -5703,7 +5703,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -5731,7 +5731,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -5759,7 +5759,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -5787,7 +5787,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -5815,7 +5815,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -5843,7 +5843,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -5871,7 +5871,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -5899,7 +5899,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -5927,7 +5927,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -5955,7 +5955,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -5983,7 +5983,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -6011,7 +6011,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -6039,7 +6039,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -6067,7 +6067,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -6095,7 +6095,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -6123,7 +6123,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -6151,7 +6151,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -6179,7 +6179,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -6207,7 +6207,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -6235,7 +6235,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -6263,7 +6263,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -6291,7 +6291,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -6319,7 +6319,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -6347,7 +6347,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -6375,7 +6375,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -6403,7 +6403,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -6431,7 +6431,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -6459,7 +6459,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -6487,7 +6487,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -6515,7 +6515,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -6543,7 +6543,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -6571,7 +6571,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -6599,7 +6599,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -6627,7 +6627,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -6655,7 +6655,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -6683,7 +6683,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -6711,7 +6711,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -6739,7 +6739,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -6767,7 +6767,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -6795,7 +6795,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -6823,7 +6823,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -6851,7 +6851,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -6879,7 +6879,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -6907,7 +6907,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -6935,7 +6935,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -6963,7 +6963,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -6991,7 +6991,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -7019,7 +7019,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -7047,7 +7047,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -7075,7 +7075,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -7103,7 +7103,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -7131,7 +7131,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -7159,7 +7159,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -7187,7 +7187,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -7215,7 +7215,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -7243,7 +7243,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -7271,7 +7271,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -7299,7 +7299,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -7327,7 +7327,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -7355,7 +7355,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -7383,7 +7383,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -7411,7 +7411,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -7439,7 +7439,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -7467,7 +7467,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -7495,7 +7495,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -7523,7 +7523,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -7551,7 +7551,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -7579,7 +7579,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -7607,7 +7607,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -7635,7 +7635,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -7663,7 +7663,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -7691,7 +7691,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -7719,7 +7719,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -7747,7 +7747,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -7775,7 +7775,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -7803,7 +7803,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -7831,7 +7831,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -7859,7 +7859,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -7887,7 +7887,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -7915,7 +7915,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -7943,7 +7943,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -7971,7 +7971,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -7999,7 +7999,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -8027,7 +8027,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -8055,7 +8055,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -8083,7 +8083,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -8111,7 +8111,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -8139,7 +8139,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -8167,7 +8167,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -8195,7 +8195,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -8223,7 +8223,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -8251,7 +8251,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -8279,7 +8279,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -8307,7 +8307,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -8335,7 +8335,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -8363,7 +8363,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -8391,7 +8391,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -8419,7 +8419,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -8447,7 +8447,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -8475,7 +8475,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -8503,7 +8503,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -8531,7 +8531,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -8559,7 +8559,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -8587,7 +8587,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -8615,7 +8615,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -8643,7 +8643,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -8671,7 +8671,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -8699,7 +8699,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -8727,7 +8727,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -8755,7 +8755,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -8783,7 +8783,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -8811,7 +8811,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -8839,7 +8839,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -8867,7 +8867,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -8895,7 +8895,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -8923,7 +8923,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -8951,7 +8951,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -8979,7 +8979,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -9007,7 +9007,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -9035,7 +9035,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -9063,7 +9063,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -9091,7 +9091,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -9119,7 +9119,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -9147,7 +9147,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -9175,7 +9175,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -9203,7 +9203,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -9231,7 +9231,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -9259,7 +9259,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -9287,7 +9287,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -9315,7 +9315,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -9343,7 +9343,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -9371,7 +9371,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -9399,7 +9399,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -9427,7 +9427,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -9455,7 +9455,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -9483,7 +9483,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -9511,7 +9511,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -9539,7 +9539,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -9567,7 +9567,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -9595,7 +9595,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -9623,7 +9623,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -9651,7 +9651,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -9679,7 +9679,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -9707,7 +9707,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -9735,7 +9735,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -9763,7 +9763,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -9791,7 +9791,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -9819,7 +9819,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -9847,7 +9847,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -9875,7 +9875,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -9903,7 +9903,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -9931,7 +9931,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -9959,7 +9959,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -9987,7 +9987,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -10015,7 +10015,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -10043,7 +10043,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -10071,7 +10071,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -10099,7 +10099,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -10127,7 +10127,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -10155,7 +10155,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -10183,7 +10183,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -10211,7 +10211,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -10239,7 +10239,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -10267,7 +10267,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -10295,7 +10295,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -10323,7 +10323,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -10351,7 +10351,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -10379,7 +10379,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -10407,7 +10407,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -10435,7 +10435,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -10463,7 +10463,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -10491,7 +10491,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -10519,7 +10519,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -10547,7 +10547,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -10575,7 +10575,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -10603,7 +10603,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -10631,7 +10631,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -10659,7 +10659,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -10687,7 +10687,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -10715,7 +10715,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -10743,7 +10743,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -10771,7 +10771,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -10799,7 +10799,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -10827,7 +10827,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -10855,7 +10855,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -10883,7 +10883,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -10911,7 +10911,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -10939,7 +10939,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -10967,7 +10967,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -10995,7 +10995,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -11023,7 +11023,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -11051,7 +11051,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -11079,7 +11079,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -11107,7 +11107,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -11135,7 +11135,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -11163,7 +11163,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -11191,7 +11191,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -11219,7 +11219,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -11247,7 +11247,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -11275,7 +11275,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -11303,7 +11303,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -11331,7 +11331,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -11359,7 +11359,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -11387,7 +11387,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -11415,7 +11415,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -11443,7 +11443,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -11471,7 +11471,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -11499,7 +11499,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -11527,7 +11527,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -11555,7 +11555,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -11583,7 +11583,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -11611,7 +11611,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -11639,7 +11639,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -11667,7 +11667,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -11695,7 +11695,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -11723,7 +11723,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -11751,7 +11751,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -11779,7 +11779,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -11807,7 +11807,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -11835,7 +11835,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -11863,7 +11863,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -11891,7 +11891,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -11919,7 +11919,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -11947,7 +11947,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -11975,7 +11975,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -12003,7 +12003,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -12031,7 +12031,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -12059,7 +12059,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -12087,7 +12087,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -12115,7 +12115,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -12143,7 +12143,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -12171,7 +12171,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -12199,7 +12199,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -12227,7 +12227,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -12255,7 +12255,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -12283,7 +12283,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -12311,7 +12311,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -12339,7 +12339,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -12367,7 +12367,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -12395,7 +12395,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -12423,7 +12423,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -12451,7 +12451,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -12479,7 +12479,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -12507,7 +12507,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -12535,7 +12535,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -12563,7 +12563,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -12591,7 +12591,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -12619,7 +12619,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -12647,7 +12647,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -12675,7 +12675,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -12703,7 +12703,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -12731,7 +12731,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -12759,7 +12759,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -12787,7 +12787,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -12815,7 +12815,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -12843,7 +12843,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -12871,7 +12871,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -12899,7 +12899,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -12927,7 +12927,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -12955,7 +12955,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -12983,7 +12983,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -13011,7 +13011,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -13039,7 +13039,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -13067,7 +13067,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -13095,7 +13095,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -13123,7 +13123,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -13151,7 +13151,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -13179,7 +13179,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -13207,7 +13207,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -13235,7 +13235,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -13263,7 +13263,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -13291,7 +13291,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -13319,7 +13319,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -13347,7 +13347,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -13375,7 +13375,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -13403,7 +13403,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -13431,7 +13431,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -13459,7 +13459,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -13487,7 +13487,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -13515,7 +13515,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -13543,7 +13543,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -13571,7 +13571,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -13599,7 +13599,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -13627,7 +13627,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -13655,7 +13655,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -13683,7 +13683,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -13711,7 +13711,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -13739,7 +13739,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -13767,7 +13767,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -13795,7 +13795,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -13823,7 +13823,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -13851,7 +13851,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -13879,7 +13879,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -13907,7 +13907,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -13935,7 +13935,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -13963,7 +13963,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -13991,7 +13991,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -14019,7 +14019,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -14047,7 +14047,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -14075,7 +14075,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -14103,7 +14103,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -14131,7 +14131,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -14159,7 +14159,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -14187,7 +14187,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -14215,7 +14215,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -14243,7 +14243,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -14271,7 +14271,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -14299,7 +14299,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -14327,7 +14327,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -14355,7 +14355,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -14383,7 +14383,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -14411,7 +14411,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -14439,7 +14439,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -14467,7 +14467,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -14495,7 +14495,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -14523,7 +14523,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -14551,7 +14551,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -14579,7 +14579,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -14607,7 +14607,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -14635,7 +14635,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -14663,7 +14663,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -14691,7 +14691,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -14719,7 +14719,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -14747,7 +14747,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -14775,7 +14775,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -14803,7 +14803,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -14831,7 +14831,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -14859,7 +14859,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -14887,7 +14887,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -14915,7 +14915,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -14943,7 +14943,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -14971,7 +14971,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -14999,7 +14999,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -15027,7 +15027,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -15055,7 +15055,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -15083,7 +15083,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -15111,7 +15111,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -15139,7 +15139,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -15167,7 +15167,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -15195,7 +15195,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -15223,7 +15223,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -15251,7 +15251,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -15279,7 +15279,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -15307,7 +15307,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -15335,7 +15335,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -15363,7 +15363,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -15391,7 +15391,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -15419,7 +15419,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -15447,7 +15447,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -15475,7 +15475,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -15503,7 +15503,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -15531,7 +15531,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -15559,7 +15559,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -15587,7 +15587,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -15615,7 +15615,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -15643,7 +15643,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -15671,7 +15671,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -15699,7 +15699,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -15727,7 +15727,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -15755,7 +15755,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -15783,7 +15783,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -15811,7 +15811,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -15839,7 +15839,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -15867,7 +15867,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -15895,7 +15895,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -15923,7 +15923,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -15951,7 +15951,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -15979,7 +15979,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -16007,7 +16007,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -16035,7 +16035,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -16063,7 +16063,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -16091,7 +16091,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -16119,7 +16119,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -16147,7 +16147,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -16175,7 +16175,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -16203,7 +16203,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -16231,7 +16231,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -16259,7 +16259,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -16287,7 +16287,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -16315,7 +16315,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -16343,7 +16343,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -16371,7 +16371,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -16399,7 +16399,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -16427,7 +16427,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -16455,7 +16455,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -16483,7 +16483,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -16511,7 +16511,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -16539,7 +16539,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -16567,7 +16567,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -16595,7 +16595,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -16623,7 +16623,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -16651,7 +16651,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -16679,7 +16679,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -16707,7 +16707,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -16735,7 +16735,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -16763,7 +16763,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -16791,7 +16791,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -16819,7 +16819,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -16847,7 +16847,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -16875,7 +16875,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -16903,7 +16903,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -16931,7 +16931,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -16959,7 +16959,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -16987,7 +16987,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -17015,7 +17015,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -17043,7 +17043,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -17071,7 +17071,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -17099,7 +17099,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -17127,7 +17127,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -17155,7 +17155,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -17183,7 +17183,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -17211,7 +17211,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -17239,7 +17239,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -17267,7 +17267,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -17295,7 +17295,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -17323,7 +17323,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -17351,7 +17351,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -17379,7 +17379,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -17407,7 +17407,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -17435,7 +17435,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -17463,7 +17463,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -17491,7 +17491,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -17519,7 +17519,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -17547,7 +17547,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -17575,7 +17575,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -17603,7 +17603,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -17631,7 +17631,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -17659,7 +17659,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -17687,7 +17687,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -17715,7 +17715,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -17743,7 +17743,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -17771,7 +17771,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -17799,7 +17799,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -17827,7 +17827,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -17855,7 +17855,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -17883,7 +17883,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -17911,7 +17911,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -17939,7 +17939,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -17967,7 +17967,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -17995,7 +17995,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -18023,7 +18023,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -18051,7 +18051,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -18079,7 +18079,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -18107,7 +18107,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -18135,7 +18135,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -18163,7 +18163,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -18191,7 +18191,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -18219,7 +18219,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -18247,7 +18247,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -18275,7 +18275,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -18303,7 +18303,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -18331,7 +18331,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -18359,7 +18359,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -18387,7 +18387,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -18415,7 +18415,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -18443,7 +18443,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -18471,7 +18471,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -18499,7 +18499,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -18527,7 +18527,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -18555,7 +18555,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -18583,7 +18583,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -18611,7 +18611,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -18639,7 +18639,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -18667,7 +18667,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -18695,7 +18695,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -18723,7 +18723,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -18751,7 +18751,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -18779,7 +18779,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -18807,7 +18807,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -18835,7 +18835,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -18863,7 +18863,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -18891,7 +18891,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -18919,7 +18919,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -18947,7 +18947,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -18975,7 +18975,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -19003,7 +19003,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -19031,7 +19031,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -19059,7 +19059,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -19087,7 +19087,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -19115,7 +19115,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -19143,7 +19143,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -19171,7 +19171,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -19199,7 +19199,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -19227,7 +19227,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -19255,7 +19255,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -19283,7 +19283,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -19311,7 +19311,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -19339,7 +19339,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -19367,7 +19367,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -19395,7 +19395,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": true,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -19423,7 +19423,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -19451,7 +19451,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -19479,7 +19479,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -19507,7 +19507,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -19535,7 +19535,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -19563,7 +19563,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -19591,7 +19591,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -19619,7 +19619,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -19647,7 +19647,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -19675,7 +19675,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "5-7 years outdoor"
   },
@@ -19703,7 +19703,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -19731,7 +19731,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -19759,7 +19759,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -19787,7 +19787,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -19815,7 +19815,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -19843,7 +19843,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -19871,7 +19871,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -19899,7 +19899,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -19927,7 +19927,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -19955,7 +19955,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -19983,7 +19983,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -20011,7 +20011,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -20039,7 +20039,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -20067,7 +20067,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -20095,7 +20095,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -20123,7 +20123,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -20151,7 +20151,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -20179,7 +20179,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -20207,7 +20207,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -20235,7 +20235,7 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   },
@@ -20263,31 +20263,93 @@ export const products: Product[] = [
     "status": "available",
     "featured": false,
     "roll_width": "1.52m (60in)",
-    "roll_length": "15m (50ft)",
+    "roll_length": "15.5m",
     "thickness": "140μm",
     "durability": "3-5 years outdoor"
   }
+,
+  {
+    "id": "TP22",
+    "slug": "tpu-65-ppf",
+    "sku": "TP22",
+    "name": "TPU 6.5 mil Paint Protection Film",
+    "series": "Paint Protection Film",
+    "category": "ppf",
+    "finish_type": "tpu",
+    "color_family": "clear",
+    "price_cny": 700,
+    "features": [
+      "TPU (thermoplastic polyurethane) construction",
+      "6.5 mil thickness — rock-chip & scratch protection",
+      "Self-healing topcoat — swirl marks disappear with heat",
+      "Optically clear, non-yellowing",
+      "Hydrophobic surface — easy to clean",
+      "8-10 year outdoor durability"
+    ],
+    "description": "TPU 6.5 mil Paint Protection Film — genuine TPU-based PPF offering superior rock-chip and scratch protection. Self-healing topcoat repairs minor swirls with heat. Optically clear, non-yellowing. 8-10 year durability. Factory-direct pricing, global shipping.",
+    "images": [],
+    "thumbnail": null,
+    "status": "available",
+    "featured": true,
+    "roll_width": "1.52m (60in)",
+    "roll_length": "15.5m",
+    "thickness": "6.5 mil (165μm)",
+    "durability": "8-10 years outdoor"
+  },
+  {
+    "id": "TPU01",
+    "slug": "tpu-75-ppf",
+    "sku": "TPU01",
+    "name": "TPU 7.5 mil Paint Protection Film",
+    "series": "Paint Protection Film",
+    "category": "ppf",
+    "finish_type": "tpu",
+    "color_family": "clear",
+    "price_cny": 750,
+    "features": [
+      "TPU (thermoplastic polyurethane) construction",
+      "7.5 mil thickness — enhanced rock-chip protection",
+      "Self-healing topcoat — swirl marks disappear with heat",
+      "Optically clear, non-yellowing",
+      "Hydrophobic surface — easy to clean",
+      "8-10 year outdoor durability"
+    ],
+    "description": "TPU 7.5 mil Paint Protection Film — thicker TPU-based PPF for maximum rock-chip and scratch protection. Self-healing topcoat, optically clear, non-yellowing. 8-10 year durability. Factory-direct pricing, global shipping.",
+    "images": [],
+    "thumbnail": null,
+    "status": "available",
+    "featured": false,
+    "roll_width": "1.52m (60in)",
+    "roll_length": "15.5m",
+    "thickness": "7.5 mil (190μm)",
+    "durability": "8-10 years outdoor"
+  },
+  {
+    "id": "TPU21",
+    "slug": "tpu-85-ppf",
+    "sku": "TPU21",
+    "name": "TPU 8.5 mil Paint Protection Film",
+    "series": "Paint Protection Film",
+    "category": "ppf",
+    "finish_type": "tpu",
+    "color_family": "clear",
+    "price_cny": 800,
+    "features": [
+      "TPU (thermoplastic polyurethane) construction",
+      "8.5 mil thickness — maximum rock-chip & impact protection",
+      "Self-healing topcoat — swirl marks disappear with heat",
+      "Optically clear, non-yellowing",
+      "Hydrophobic surface — easy to clean",
+      "8-10 year outdoor durability"
+    ],
+    "description": "TPU 8.5 mil Paint Protection Film — thickest TPU-based PPF for maximum protection against rock-chips, scratches, and impacts. Self-healing topcoat, optically clear, non-yellowing. 8-10 year durability. Factory-direct pricing, global shipping.",
+    "images": [],
+    "thumbnail": null,
+    "status": "available",
+    "featured": false,
+    "roll_width": "1.52m (60in)",
+    "roll_length": "15.5m",
+    "thickness": "8.5 mil (216μm)",
+    "durability": "8-10 years outdoor"
+  }
 ];
-
-export function getProductBySlug(slug: string): Product | null {
-  return products.find(p => p.slug === slug) ?? null;
-}
-
-export function getFeaturedProducts(limit = 8): Product[] {
-  return products.filter(p => p.featured).slice(0, limit);
-}
-
-export function getProductsByCategory(category: string): Product[] {
-  return products.filter(p => p.category === category);
-}
-
-export function getSimilarProducts(product: Product, limit = 3): Product[] {
-  return products
-    .filter(p => p.category === product.category && p.sku !== product.sku)
-    .slice(0, limit);
-}
-
-export function getSeriesList(category?: string): string[] {
-  const filtered = category ? products.filter(p => p.category === category) : products;
-  return [...new Set(filtered.map(p => p.series))].sort();
-}

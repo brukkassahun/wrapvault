@@ -93,7 +93,7 @@ export default function FAQPage() {
   return (
     <>
       {/* ─── Hero ─── */}
-      <section className="border-b border-ink-border bg-ink-light">
+      <section className="border-b border-ink-border bg-white">
         <div className="mx-auto max-w-3xl px-6 py-16 text-center lg:px-10 lg:py-20">
           <p className="eyebrow mb-4">
             <span className="text-vault">●</span> Help Center
@@ -123,7 +123,7 @@ export default function FAQPage() {
               className={`rounded-full border px-4 py-2 text-xs font-bold uppercase tracking-[0.12em] transition-all duration-200 ${
                 activeCategory === cat
                   ? "border-vault bg-vault/10 text-vault"
-                  : "border-ink-border bg-ink-light text-silver-light hover:border-silver-light hover:text-silver-bright"
+                  : "border-ink-border bg-white text-silver-light hover:border-silver-light hover:text-silver-bright"
               }`}
             >
               {cat}
@@ -179,7 +179,7 @@ export default function FAQPage() {
         </div>
 
         {/* Still have questions? */}
-        <div className="mt-12 flex flex-col items-center gap-4 rounded-2xl border border-ink-border bg-ink-light p-8 text-center">
+        <div className="mt-12 flex flex-col items-center gap-4 rounded-2xl border border-ink-border bg-white p-8 text-center">
           <div className="flex h-14 w-14 items-center justify-center rounded-full bg-vault/10">
             <svg className="h-7 w-7 text-vault" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true">
               <path strokeLinecap="round" strokeLinejoin="round" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />

@@ -138,7 +138,7 @@ export default function WholesalePage() {
       {/* ════════════════════════════════════════════════════════════
           PROCESS
           ════════════════════════════════════════════════════════════ */}
-      <section className="border-b border-ink-border bg-ink-light">
+      <section className="border-b border-ink-border bg-white">
         <div className="mx-auto max-w-7xl px-6 py-16 lg:px-10 lg:py-20">
           <div className="mb-10 text-center">
             <p className="eyebrow mb-3">
@@ -213,7 +213,7 @@ export default function WholesalePage() {
           </div>
 
           {/* WhatsApp alternative */}
-          <div className="mt-6 flex flex-col items-center gap-3 rounded-xl border border-ink-border bg-ink-light p-6 text-center">
+          <div className="mt-6 flex flex-col items-center gap-3 rounded-xl border border-ink-border bg-white p-6 text-center">
             <p className="text-sm text-silver">
               Prefer to talk directly? Our wholesale team is on WhatsApp.
             </p>

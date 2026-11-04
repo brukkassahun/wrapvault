@@ -17,7 +17,7 @@ export interface Product {
   sku: string;
   name: string;
   series: string;
-  category: "pet-color-change" | "self-healing";
+  category: "pet-color-change" | "self-healing" | "ppf";
   finish_type: string;
   color_family: string;
   price_cny: number;

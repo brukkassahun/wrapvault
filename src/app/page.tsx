@@ -29,7 +29,7 @@ export default async function HomePage() {
           className="absolute inset-0 opacity-[0.03]"
           style={{
             backgroundImage:
-              "linear-gradient(to right, #fff 1px, transparent 1px), linear-gradient(to bottom, #fff 1px, transparent 1px)",
+              "linear-gradient(to right, #000 1px, transparent 1px), linear-gradient(to bottom, #000 1px, transparent 1px)",
             backgroundSize: "64px 64px",
           }}
         />
@@ -51,7 +51,7 @@ export default async function HomePage() {
               <p className="mt-6 max-w-lg text-base leading-relaxed text-silver">
                 Premium PET color-change and self-healing paint protection films,
                 manufactured in our ISO-certified facility and shipped worldwide.
-                Electro-gloss, liquid metal, chameleon, holographic — {totalCount > 0 ? `${totalCount}+` : "700+"} colors
+                Electro-gloss, liquid metal, chameleon, holographic — {totalCount > 0 ? `${totalCount}+` : "726+"} colors
                 ready to transform any vehicle.
               </p>
 
@@ -73,7 +73,7 @@ export default async function HomePage() {
                   (finish) => (
                     <span
                       key={finish}
-                      className="rounded-full border border-ink-border bg-ink-light px-3 py-1 text-[11px] font-bold uppercase tracking-wider text-silver-light"
+                      className="rounded-full border border-ink-border bg-white px-3 py-1 text-[11px] font-bold uppercase tracking-wider text-silver-light"
                     >
                       {finish}
                     </span>
@@ -93,7 +93,7 @@ export default async function HomePage() {
                     <div className="absolute inset-8 rounded-full bg-gradient-to-br from-vault/10 via-transparent to-flame/10 blur-2xl" />
 
                     {/* Central card */}
-                    <div className="absolute inset-12 flex items-center justify-center rounded-3xl border border-ink-border bg-ink-card/80 backdrop-blur-sm">
+                    <div className="absolute inset-12 flex items-center justify-center rounded-3xl border border-ink-border bg-white/80 backdrop-blur-sm">
                       <div className="text-center">
                         <div className="mx-auto mb-4 flex h-20 w-20 items-center justify-center rounded-2xl bg-vault/10">
                           <svg className="h-10 w-10 text-vault" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true">
@@ -102,7 +102,7 @@ export default async function HomePage() {
                           </svg>
                         </div>
                         <p className="font-display text-4xl font-black text-vault">
-                          {totalCount > 0 ? `${totalCount}+` : "700+"}
+                          {totalCount > 0 ? `${totalCount}+` : "726+"}
                         </p>
                         <p className="mt-1 text-xs font-bold uppercase tracking-[0.18em] text-silver">
                           Colors Available
@@ -129,7 +129,7 @@ export default async function HomePage() {
                             transform: `translate(calc(-50% + ${x}%), calc(-50% + ${y}%))`,
                           }}
                         >
-                          <span className="rounded-full border border-ink-border bg-ink-card px-3 py-1.5 text-[10px] font-black uppercase tracking-wider text-vault shadow-lg shadow-black/30">
+                          <span className="rounded-full border border-ink-border bg-white px-3 py-1.5 text-[10px] font-black uppercase tracking-wider text-vault shadow-lg shadow-black/10">
                             {badge.label}
                           </span>
                         </div>
@@ -146,12 +146,12 @@ export default async function HomePage() {
       {/* ════════════════════════════════════════════════════════════
           STATS BAR
           ════════════════════════════════════════════════════════════ */}
-      <section className="border-b border-ink-border bg-ink-light">
+      <section className="border-b border-ink-border bg-white">
         <div className="mx-auto max-w-7xl px-6 py-10 lg:px-10">
           <div className="grid grid-cols-2 gap-6 lg:grid-cols-4">
             {[
-              { stat: totalCount > 0 ? `${totalCount}+` : "700+", label: "Colors Available", icon: "🎨" },
-              { stat: "2", label: "Film Categories", icon: "🎬" },
+              { stat: totalCount > 0 ? `${totalCount}+` : "726+", label: "Colors Available", icon: "🎨" },
+              { stat: "3", label: "Film Categories", icon: "🎬" },
               { stat: "150+", label: "Countries Shipped", icon: "🌍" },
               { stat: "ISO 9001", label: "Certified Quality", icon: "✅" },
             ].map((item) => (
@@ -270,7 +270,7 @@ export default async function HomePage() {
       {/* ════════════════════════════════════════════════════════════
           CATEGORY SHOWCASE
           ════════════════════════════════════════════════════════════ */}
-      <section className="border-b border-ink-border bg-ink-light">
+      <section className="border-b border-ink-border bg-white">
         <div className="mx-auto max-w-7xl px-6 py-16 lg:px-10 lg:py-20">
           <div className="mb-10 text-center">
             <p className="eyebrow mb-3">
@@ -279,7 +279,7 @@ export default async function HomePage() {
             <h2 className="display-lg text-silver-bright">Choose Your Film Type</h2>
           </div>
 
-          <div className="grid gap-6 lg:grid-cols-2">
+          <div className="grid gap-6 lg:grid-cols-3">
             {/* PET Color Change */}
             <Reveal>
               <Link
@@ -295,34 +295,15 @@ export default async function HomePage() {
                   <p className="mt-3 text-sm text-silver">
                     700+ vibrant colors with stunning finishes — electro-gloss,
                     liquid metal, chameleon, holographic, matte, crystal and more.
-                    Transform your vehicle&apos;s appearance in hours, not days.
                   </p>
-                  <ul className="mt-4 space-y-2">
-                    {[
-                      "Electro-gloss & liquid metal finishes",
-                      "Color-shift / chameleon effects",
-                      "Air-release adhesive for bubble-free install",
-                      "5–7 year outdoor durability",
-                    ].map((feat) => (
-                      <li key={feat} className="flex items-center gap-2 text-xs text-silver-light">
-                        <svg className="h-3.5 w-3.5 shrink-0 text-vault" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                          <path fillRule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clipRule="evenodd" />
-                        </svg>
-                        {feat}
-                      </li>
-                    ))}
-                  </ul>
                   <span className="mt-6 inline-flex items-center gap-2 font-display text-sm font-bold uppercase tracking-wider text-vault">
-                    Explore Colors
-                    <svg className="h-4 w-4 transition-transform group-hover:translate-x-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                    </svg>
+                    Explore Colors →
                   </span>
                 </div>
               </Link>
             </Reveal>
 
-            {/* Self-Healing PPF */}
+            {/* Self-Healing */}
             <Reveal delay={0.1}>
               <Link
                 href="/products?category=self-healing"
@@ -330,35 +311,39 @@ export default async function HomePage() {
               >
                 <div className="absolute right-0 top-0 h-40 w-40 rounded-full bg-signal/10 blur-3xl transition-all duration-500 group-hover:bg-signal/20" />
                 <div className="relative">
-                  <span className="badge badge-available mb-4">Self-Healing PPF</span>
+                  <span className="badge badge-available mb-4">Self-Healing</span>
                   <h3 className="display-md text-silver-bright">
                     Self-Healing<br />Wrap Film
                   </h3>
                   <p className="mt-3 text-sm text-silver">
-                    Advanced paint protection film with self-repairing topcoat
-                    technology. Scratches and swirl marks disappear with heat.
-                    Invisible protection that keeps your paint pristine.
+                    Advanced wrap film with self-repairing topcoat.
+                    Scratches and swirl marks disappear with heat.
                   </p>
-                  <ul className="mt-4 space-y-2">
-                    {[
-                      "Self-healing elastomeric topcoat",
-                      "Rock-chip & scratch protection",
-                      "Optically clear, non-yellowing",
-                      "10 year durability rating",
-                    ].map((feat) => (
-                      <li key={feat} className="flex items-center gap-2 text-xs text-silver-light">
-                        <svg className="h-3.5 w-3.5 shrink-0 text-signal" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                          <path fillRule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clipRule="evenodd" />
-                        </svg>
-                        {feat}
-                      </li>
-                    ))}
-                  </ul>
                   <span className="mt-6 inline-flex items-center gap-2 font-display text-sm font-bold uppercase tracking-wider text-signal">
-                    Explore PPF
-                    <svg className="h-4 w-4 transition-transform group-hover:translate-x-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                    </svg>
+                    Explore →
+                  </span>
+                </div>
+              </Link>
+            </Reveal>
+
+            {/* PPF */}
+            <Reveal delay={0.2}>
+              <Link
+                href="/products?category=ppf"
+                className="card-dark group relative block overflow-hidden p-8 hover:border-flame/40"
+              >
+                <div className="absolute right-0 top-0 h-40 w-40 rounded-full bg-flame/10 blur-3xl transition-all duration-500 group-hover:bg-flame/20" />
+                <div className="relative">
+                  <span className="badge badge-sold mb-4">PPF</span>
+                  <h3 className="display-md text-silver-bright">
+                    Paint Protection<br />Film (TPU)
+                  </h3>
+                  <p className="mt-3 text-sm text-silver">
+                    Genuine TPU-based PPF — 6.5, 7.5 & 8.5 mil thicknesses.
+                    Rock-chip protection, self-healing, optically clear.
+                  </p>
+                  <span className="mt-6 inline-flex items-center gap-2 font-display text-sm font-bold uppercase tracking-wider text-flame">
+                    Explore PPF →
                   </span>
                 </div>
               </Link>
@@ -456,7 +441,7 @@ export default async function HomePage() {
       {/* ════════════════════════════════════════════════════════════
           CTA SECTION
           ════════════════════════════════════════════════════════════ */}
-      <section className="relative overflow-hidden border-b border-ink-border bg-ink-light">
+      <section className="relative overflow-hidden border-b border-ink-border bg-white">
         <div className="absolute inset-0">
           <div className="absolute left-1/2 top-1/2 h-[400px] w-[600px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-vault/5 blur-[120px]" />
         </div>

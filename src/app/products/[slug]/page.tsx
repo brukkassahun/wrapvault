@@ -87,7 +87,7 @@ export default async function ProductDetailPage({
     { label: "SKU", value: product.sku },
     { label: "Finish Type", value: product.finish_type },
     { label: "Color Family", value: product.color_family },
-    { label: "Category", value: product.category === "pet-color-change" ? "PET Color Change" : "Self-Healing PPF" },
+    { label: "Category", value: product.category === "pet-color-change" ? "PET Color Change" : product.category === "ppf" ? "Paint Protection Film (TPU)" : "Self-Healing PPF" },
     { label: "Roll Width", value: product.roll_width },
     { label: "Roll Length", value: product.roll_length },
     { label: "Thickness", value: product.thickness },
@@ -107,7 +107,7 @@ export default async function ProductDetailPage({
             href={`/products?category=${product.category}`}
             className="transition-colors hover:text-vault"
           >
-            {product.category === "pet-color-change" ? "Color Change" : "Self-Healing"}
+            {product.category === "pet-color-change" ? "Color Change" : product.category === "ppf" ? "PPF" : "Self-Healing"}
           </Link>
           <span className="text-ink-border">/</span>
           <span className="truncate text-silver-bright">{product.name}</span>
@@ -153,12 +153,12 @@ export default async function ProductDetailPage({
 
               <div className="mt-2 flex flex-wrap items-center gap-3">
                 {product.finish_type && (
-                  <span className="rounded-lg border border-ink-border bg-ink-light px-3 py-1 text-xs font-bold uppercase tracking-wider text-vault">
+                  <span className="rounded-lg border border-ink-border bg-white px-3 py-1 text-xs font-bold uppercase tracking-wider text-vault">
                     {product.finish_type}
                   </span>
                 )}
                 {product.color_family && (
-                  <span className="rounded-lg border border-ink-border bg-ink-light px-3 py-1 text-xs font-bold uppercase tracking-wider text-silver-light">
+                  <span className="rounded-lg border border-ink-border bg-white px-3 py-1 text-xs font-bold uppercase tracking-wider text-silver-light">
                     {product.color_family}
                   </span>
                 )}
@@ -177,7 +177,7 @@ export default async function ProductDetailPage({
             {/* Purchase section */}
             <div className="flex flex-col gap-3 sm:flex-row">
               <a
-                href={whatsappLink(`Hi, I'm interested in ${product.name} (${product.sku}) — ${formatPrice(product.price_cny)}. Is it available?`)}
+                href={whatsappLink(`Hi, I'm interested in ${product.name} (${product.sku}) — ${formatPrice(product.price_cny)} per roll (15.5m). Is it available?`)}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-primary flex-1"
@@ -238,7 +238,7 @@ export default async function ProductDetailPage({
             )}
 
             {/* Trust badges row */}
-            <div className="flex flex-wrap items-center gap-x-6 gap-y-2 rounded-xl border border-ink-border bg-ink-light px-5 py-4">
+            <div className="flex flex-wrap items-center gap-x-6 gap-y-2 rounded-xl border border-ink-border bg-white px-5 py-4">
               {[
                 { label: "Factory Direct", icon: "🏭" },
                 { label: "ISO 9001 Quality", icon: "✅" },
@@ -256,7 +256,7 @@ export default async function ProductDetailPage({
 
       {/* ─── Similar products ─── */}
       {similarProducts.length > 0 && (
-        <section className="border-t border-ink-border bg-ink-light">
+        <section className="border-t border-ink-border bg-white">
           <div className="mx-auto max-w-7xl px-6 py-14 lg:px-10">
             <div className="mb-8 flex items-end justify-between gap-4">
               <div>
@@ -287,7 +287,7 @@ export default async function ProductDetailPage({
       {/* ─── CTA strip ─── */}
       <section className="border-t border-ink-border">
         <div className="mx-auto max-w-7xl px-6 py-12 lg:px-10">
-          <div className="flex flex-col items-center justify-between gap-6 rounded-2xl border border-ink-border bg-ink-card p-8 text-center sm:flex-row sm:text-left">
+          <div className="flex flex-col items-center justify-between gap-6 rounded-2xl border border-ink-border bg-white p-8 text-center shadow-sm sm:flex-row sm:text-left">
             <div>
               <h3 className="font-display text-xl font-bold text-silver-bright">
                 Need a Custom Color or Bulk Quantity?

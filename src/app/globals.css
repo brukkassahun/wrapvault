@@ -1,25 +1,29 @@
 @import "tailwindcss";
 
 /* ============================================================
-   WrapVault Design System
-   Dark premium automotive aesthetic — charcoal base, vibrant accents
+   WrapVault Design System — Light Mode
+   Clean, bright, gallery-like aesthetic.
    The product IS color, so the UI frames color like a gallery
+   on a white wall.
    ============================================================ */
 
 @theme {
-  --color-ink: #0A0A0B;
-  --color-ink-light: #131316;
-  --color-ink-card: #1A1A1E;
-  --color-ink-border: #2A2A2E;
+  /* Backgrounds — light */
+  --color-ink: #F8F8F6;              /* page background — warm off-white */
+  --color-ink-light: #FFFFFF;        /* cards / elevated surfaces */
+  --color-ink-card: #FFFFFF;         /* card surface */
+  --color-ink-border: #E2E2DC;       /* subtle borders */
+  /* Text */
   --color-cream: #FAF9F6;
-  --color-silver: #8B8B90;
-  --color-silver-light: #A0A0A5;
-  --color-silver-bright: #E8E8EC;
-  --color-vault: #00E5FF;        /* electric cyan — primary accent */
-  --color-vault-glow: #00B8D4;
-  --color-flame: #FF3D71;        /* hot pink-red — secondary accent */
-  --color-signal: #00E676;       /* green — available status */
-  --color-flare: #FFAB00;        /* amber — featured status */
+  --color-silver: #6B6B70;            /* secondary text */
+  --color-silver-light: #4A4A4F;     /* body text */
+  --color-silver-bright: #1A1A1E;    /* headings / primary text */
+  /* Accents — same vibrant brand colors */
+  --color-vault: #00B8D4;            /* teal — primary accent (slightly darker for light bg) */
+  --color-vault-glow: #0097A7;
+  --color-flame: #E91E63;            /* hot pink-red — secondary accent */
+  --color-signal: #00C853;           /* green — available status */
+  --color-flare: #FF9100;            /* amber — featured status */
   --color-slate: #6B7280;
   --color-slate-light: #4B5563;
   --color-slate-muted: #9CA3AF;
@@ -34,20 +38,20 @@
   }
   body {
     background-color: var(--color-ink);
-    color: var(--color-silver-bright);
+    color: var(--color-silver-light);
     font-family: var(--font-sans);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
   ::selection {
     background-color: var(--color-vault);
-    color: var(--color-ink);
+    color: #FFFFFF;
   }
 }
 
 @layer components {
   .eyebrow {
-    @apply inline-flex items-center gap-2 rounded-full border border-ink-border bg-ink-light px-4 py-1.5 font-sans text-[11px] font-bold uppercase tracking-[0.22em] text-silver-light;
+    @apply inline-flex items-center gap-2 rounded-full border border-ink-border bg-white px-4 py-1.5 font-sans text-[11px] font-bold uppercase tracking-[0.22em] text-slate-light;
   }
 
   .display-xl {
@@ -67,23 +71,23 @@
   }
 
   .btn-primary {
-    @apply inline-flex items-center justify-center gap-2 rounded-full bg-vault px-7 py-3.5 font-sans text-xs font-bold uppercase tracking-[0.18em] text-ink transition-all duration-300 hover:bg-vault-glow hover:scale-[1.02] active:scale-[0.98];
+    @apply inline-flex items-center justify-center gap-2 rounded-full bg-vault px-7 py-3.5 font-sans text-xs font-bold uppercase tracking-[0.18em] text-white transition-all duration-300 hover:bg-vault-glow hover:scale-[1.02] active:scale-[0.98];
   }
 
   .btn-ghost {
-    @apply inline-flex items-center justify-center gap-2 rounded-full border border-ink-border px-7 py-3.5 font-sans text-xs font-bold uppercase tracking-[0.18em] text-silver-bright transition-all duration-300 hover:border-vault hover:text-vault;
+    @apply inline-flex items-center justify-center gap-2 rounded-full border border-ink-border px-7 py-3.5 font-sans text-xs font-bold uppercase tracking-[0.18em] text-silver-bright transition-all duration-300 hover:border-vault hover:text-vault bg-white;
   }
 
   .btn-signal {
-    @apply inline-flex items-center justify-center gap-2 rounded-full bg-signal px-7 py-3.5 font-sans text-xs font-bold uppercase tracking-[0.18em] text-ink transition-all duration-300 hover:scale-[1.02] active:scale-[0.98];
+    @apply inline-flex items-center justify-center gap-2 rounded-full bg-signal px-7 py-3.5 font-sans text-xs font-bold uppercase tracking-[0.18em] text-white transition-all duration-300 hover:scale-[1.02] active:scale-[0.98];
   }
 
   .card-dark {
-    @apply rounded-2xl border border-ink-border bg-ink-card transition-all duration-300;
+    @apply rounded-2xl border border-ink-border bg-white shadow-sm transition-all duration-300;
   }
 
   .input-field {
-    @apply w-full appearance-none rounded-xl border border-ink-border bg-ink-light px-5 py-3.5 font-sans text-sm font-medium text-silver-bright outline-none transition-colors focus:border-vault;
+    @apply w-full appearance-none rounded-xl border border-ink-border bg-white px-5 py-3.5 font-sans text-sm font-medium text-silver-bright outline-none transition-colors focus:border-vault;
   }
 
   .badge {
@@ -118,7 +122,7 @@
   background: var(--color-ink);
 }
 ::-webkit-scrollbar-thumb {
-  background: var(--color-ink-border);
+  background: #D0D0CA;
   border-radius: 4px;
 }
 ::-webkit-scrollbar-thumb:hover {

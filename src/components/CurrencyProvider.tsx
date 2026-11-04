@@ -23,7 +23,7 @@ const CurrencyContext = createContext<CurrencyContextValue | undefined>(
 const STORAGE_KEY = "wrapvault-currency";
 
 export function CurrencyProvider({ children }: { children: ReactNode }) {
-  const [code, setCodeState] = useState<CurrencyCode>("USD");
+  const [code, setCodeState] = useState<CurrencyCode>("CNY");
   const [mounted, setMounted] = useState(false);
 
   // Load saved currency from localStorage on mount

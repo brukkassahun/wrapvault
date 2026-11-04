@@ -13,7 +13,7 @@ export default function ContactPage() {
   return (
     <>
       {/* ─── Hero ─── */}
-      <section className="border-b border-ink-border bg-ink-light">
+      <section className="border-b border-ink-border bg-white">
         <div className="mx-auto max-w-7xl px-6 py-16 lg:px-10 lg:py-20">
           <p className="eyebrow mb-4">
             <span className="text-vault">●</span> Get In Touch
@@ -113,7 +113,7 @@ export default function ContactPage() {
       </section>
 
       {/* ─── Contact form ─── */}
-      <section className="border-b border-ink-border bg-ink-light">
+      <section className="border-b border-ink-border bg-white">
         <div className="mx-auto max-w-3xl px-6 py-16 lg:px-10">
           <div className="mb-8 text-center">
             <p className="eyebrow mb-3">

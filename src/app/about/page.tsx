@@ -118,7 +118,7 @@ export default function AboutPage() {
       {/* ════════════════════════════════════════════════════════════
           VALUES
           ════════════════════════════════════════════════════════════ */}
-      <section className="border-b border-ink-border bg-ink-light">
+      <section className="border-b border-ink-border bg-white">
         <div className="mx-auto max-w-7xl px-6 py-16 lg:px-10 lg:py-20">
           <div className="mb-10 text-center">
             <p className="eyebrow mb-3">
@@ -214,7 +214,7 @@ export default function AboutPage() {
       {/* ════════════════════════════════════════════════════════════
           CERTIFICATIONS
           ════════════════════════════════════════════════════════════ */}
-      <section className="border-b border-ink-border bg-ink-light">
+      <section className="border-b border-ink-border bg-white">
         <div className="mx-auto max-w-7xl px-6 py-16 lg:px-10 lg:py-20">
           <div className="grid gap-8 lg:grid-cols-2 lg:items-center">
             <Reveal>

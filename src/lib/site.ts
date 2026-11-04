@@ -9,14 +9,16 @@ export const site = {
   email: process.env.CONTACT_EMAIL || "contact@wrapvault.com",
   url: process.env.NEXT_PUBLIC_SITE_URL || "https://wrapvault.com",
   address: "China",
-  currency: "USD" as const,
-  exchangeRate: 7.2, // CNY to USD
+  currency: "CNY" as const,
+  exchangeRate: 7.2, // CNY to USD (for reference only — prices displayed in RMB)
+  rollLength: "15.5m per roll",
 };
 
 export const navLinks = [
   { href: "/products", label: "Shop Films" },
   { href: "/products?category=pet-color-change", label: "Color Change" },
   { href: "/products?category=self-healing", label: "Self-Healing" },
+  { href: "/products?category=ppf", label: "PPF" },
   { href: "/wholesale", label: "Wholesale" },
   { href: "/about", label: "About" },
   { href: "/contact", label: "Contact" },
@@ -30,19 +32,20 @@ export function whatsappLink(message: string) {
 export const filmCategories = [
   { id: "pet-color-change", name: "PET Color Change Film", tagline: "700+ colors, factory-direct" },
   { id: "self-healing", name: "Self-Healing Wrap Film", tagline: "Scratch-repair technology" },
+  { id: "ppf", name: "Paint Protection Film (TPU)", tagline: "True PPF — rock-chip protection" },
 ] as const;
 
 // Finish types for filtering
 export const finishTypes = [
   "gloss", "matte", "metallic", "crystal", "liquid-metal",
   "color-shift", "ultra-matte", "electroplated", "chameleon",
-  "holographic", "ceramic", "electro-gloss", "diamond", "standard",
+  "holographic", "ceramic", "electro-gloss", "diamond", "standard", "tpu",
 ] as const;
 
 // Color families for filtering
 export const colorFamilies = [
   "black", "white", "grey", "silver", "red", "blue", "green",
-  "yellow", "purple", "pink", "orange", "gold", "brown", "multi",
+  "yellow", "purple", "pink", "orange", "gold", "brown", "multi", "clear",
 ] as const;
 
 // Trust badges
@@ -52,25 +55,30 @@ export const trustBadges = [
   { icon: "globe", title: "Global Shipping", sub: "Worldwide delivery, consolidated freight" },
 ] as const;
 
+// Currencies — CNY (RMB) is the primary display currency
 export const currencies = [
-  { code: "USD", symbol: "$", rate: 1, label: "US Dollar" },
-  { code: "CNY", symbol: "¥", rate: 7.2, label: "Chinese Yuan" },
-  { code: "EUR", symbol: "€", rate: 0.92, label: "Euro" },
-  { code: "GBP", symbol: "£", rate: 0.79, label: "British Pound" },
-  { code: "NGN", symbol: "₦", rate: 1485, label: "Nigerian Naira" },
-  { code: "GHS", symbol: "₵", rate: 12.5, label: "Ghanaian Cedi" },
+  { code: "CNY", symbol: "¥", rate: 1, label: "Chinese Yuan (RMB)" },
+  { code: "USD", symbol: "$", rate: 0.139, label: "US Dollar" },
+  { code: "EUR", symbol: "€", rate: 0.128, label: "Euro" },
+  { code: "GBP", symbol: "£", rate: 0.110, label: "British Pound" },
+  { code: "NGN", symbol: "₦", rate: 206, label: "Nigerian Naira" },
+  { code: "GHS", symbol: "₵", rate: 1.74, label: "Ghanaian Cedi" },
 ] as const;
 
 export type CurrencyCode = (typeof currencies)[number]["code"];
 
-export function cnyToUsd(cny: number): number {
-  return Math.round(cny / site.exchangeRate);
+/**
+ * Format price — prices are stored in CNY (RMB).
+ * Default display is RMB. Other currencies convert from CNY directly.
+ */
+export function formatPrice(cny: number, currencyCode: CurrencyCode = "CNY"): string {
+  const currency = currencies.find((c) => c.code === currencyCode);
+  if (!currency) return `¥${cny.toLocaleString()}`;
+  const converted = Math.round(cny * currency.rate);
+  return `${currency.symbol}${converted.toLocaleString()}`;
 }
 
-export function formatPrice(cny: number, currencyCode: CurrencyCode = "USD"): string {
-  const usd = cnyToUsd(cny);
-  const currency = currencies.find(c => c.code === currencyCode);
-  if (!currency) return `$${usd.toLocaleString()}`;
-  const converted = Math.round(usd * currency.rate);
-  return `${currency.symbol}${converted.toLocaleString()}`;
+/** Per-roll price label helper */
+export function priceLabel(cny: number, currencyCode: CurrencyCode = "CNY"): string {
+  return `${formatPrice(cny, currencyCode)} / roll (15.5m)`;
 }
