@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import { Analytics } from "@vercel/analytics/react";
+import { Analytics } from "@vercel/analytics/next";
 
 import { CurrencyProvider } from "@/components/CurrencyProvider";
 import { CartProvider } from "@/components/CartProvider";
