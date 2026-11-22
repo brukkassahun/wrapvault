@@ -3,7 +3,7 @@ import { site } from "@/lib/site";
 
 export const metadata = {
   title: "Terms of Service",
-  description: "The terms and conditions for using WrapVault's website and purchasing wrap films.",
+  description: "The terms and conditions for using CarFilmBros's website and purchasing wrap films.",
 };
 
 export default function TermsPage() {

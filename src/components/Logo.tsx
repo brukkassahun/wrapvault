@@ -10,7 +10,7 @@ interface LogoProps {
 }
 
 /**
- * Hexagonal vault badge with "WV" monogram and cyan accent stroke.
+ * Hexagonal vault badge with "CF" monogram and cyan accent stroke.
  * "light" variant = for light/white backgrounds (current theme).
  * "dark" variant = for dark backgrounds.
  */
@@ -49,7 +49,7 @@ export function LogoMark({
         strokeOpacity="0.3"
         strokeLinejoin="round"
       />
-      {/* WV monogram */}
+      {/* CF monogram */}
       <text
         x="24"
         y="30"
@@ -60,7 +60,7 @@ export function LogoMark({
         fill={textFill}
         letterSpacing="-0.5"
       >
-        WV
+        CF
       </text>
       {/* Vault accent dot */}
       <circle cx="24" cy="6" r="1.5" fill={stroke} />
@@ -83,7 +83,7 @@ export default function Logo({
     <Link
       href={href}
       className={`group inline-flex items-center gap-2.5 ${className}`}
-      aria-label="WrapVault — Home"
+      aria-label="CarFilmBros — Home"
     >
       <span className="transition-transform duration-300 group-hover:scale-105">
         <LogoMark variant={variant} className="h-9 w-9" />
@@ -92,7 +92,7 @@ export default function Logo({
         <span
           className={`font-display text-lg font-black uppercase tracking-tight ${textColor}`}
         >
-          Wrap<span className="text-vault">Vault</span>
+          CarFilm<span className="text-vault">Bros</span>
         </span>
       )}
     </Link>

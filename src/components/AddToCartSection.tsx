@@ -16,7 +16,7 @@ export default function AddToCartSection({ product }: AddToCartSectionProps) {
 
   const isAvailable = product.status === "available";
 
-  const inquiryMessage = `Hello WrapVault, I'm interested in:\n\n${product.name} (${product.series})\nSKU: ${product.sku}\nFinish: ${product.finish_type}\nColor: ${product.color_family}\nPrice: ${formatPrice(product.price_cny, code)}\n\nIs this in stock and ready to ship?`;
+  const inquiryMessage = `Hello CarFilmBros, I'm interested in:\n\n${product.name} (${product.series})\nSKU: ${product.sku}\nFinish: ${product.finish_type}\nColor: ${product.color_family}\nPrice: ${formatPrice(product.price_cny, code)}\n\nIs this in stock and ready to ship?`;
 
   return (
     <div className="space-y-5">

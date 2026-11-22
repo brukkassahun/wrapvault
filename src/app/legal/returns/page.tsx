@@ -3,7 +3,7 @@ import { site } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Returns Policy",
-  description: "Returns and refunds policy for WrapVault car wrap and PPF film orders.",
+  description: "Returns and refunds policy for CarFilmBros car wrap and PPF film orders.",
   alternates: { canonical: `${site.url}/legal/returns` },
 };
 

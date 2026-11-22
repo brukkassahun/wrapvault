@@ -3,7 +3,7 @@ import { site } from "@/lib/site";
 
 export const metadata = {
   title: "Privacy Policy",
-  description: "How WrapVault collects, uses, and protects your personal information.",
+  description: "How CarFilmBros collects, uses, and protects your personal information.",
 };
 
 export default function PrivacyPage() {

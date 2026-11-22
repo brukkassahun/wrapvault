@@ -47,7 +47,7 @@ export default function FloatingContact() {
 
       {/* WhatsApp button */}
       <a
-        href={whatsappLink("Hello WrapVault, I'd like to inquire about your wrap films.")}
+        href={whatsappLink("Hello CarFilmBros, I'd like to inquire about your wrap films.")}
         target="_blank"
         rel="noopener noreferrer"
         className="group flex h-14 w-14 items-center justify-center rounded-full bg-signal shadow-lg shadow-signal/30 transition-all duration-300 hover:scale-105"

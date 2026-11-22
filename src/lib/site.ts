@@ -1,13 +1,13 @@
 export const site = {
-  name: "WrapVault",
+  name: "CarFilmBros",
   tagline: "Premium Car Wrap & PPF Films",
   description:
     "700+ colors in PET color-change and self-healing wrap films. Factory-direct pricing, global shipping. Electro-gloss, liquid metal, chameleon, holographic, matte, crystal and more.",
   phone: process.env.WHATSAPP_NUMBER || "8615365806070",
   whatsapp: process.env.WHATSAPP_NUMBER || "8615365806070",
-  wechat: process.env.WECHAT_ID || "WRAPVAULT",
-  email: process.env.CONTACT_EMAIL || "contact@wrapvault.com",
-  url: process.env.NEXT_PUBLIC_SITE_URL || "https://wrapvault.com",
+  wechat: process.env.WECHAT_ID || "CARFILMBROS",
+  email: process.env.CONTACT_EMAIL || "contact@carfilmbros.com",
+  url: process.env.NEXT_PUBLIC_SITE_URL || "https://carfilmbros.com",
   address: "China",
   currency: "CNY" as const,
   exchangeRate: 7.2, // CNY to USD (for reference only — prices displayed in RMB)

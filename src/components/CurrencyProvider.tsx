@@ -20,7 +20,7 @@ const CurrencyContext = createContext<CurrencyContextValue | undefined>(
   undefined
 );
 
-const STORAGE_KEY = "wrapvault-currency";
+const STORAGE_KEY = "carfilmbros-currency";
 
 export function CurrencyProvider({ children }: { children: ReactNode }) {
   const [code, setCodeState] = useState<CurrencyCode>("CNY");

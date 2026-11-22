@@ -300,7 +300,7 @@ export default async function ProductDetailPage({
             <div className="flex flex-col gap-3 sm:flex-row">
               <a
                 href={whatsappLink(
-                  `Hello WrapVault, I'm interested in ${product.name} (${product.sku}). Can you help with bulk pricing or custom options?`
+                  `Hello CarFilmBros, I'm interested in ${product.name} (${product.sku}). Can you help with bulk pricing or custom options?`
                 )}
                 target="_blank"
                 rel="noopener noreferrer"

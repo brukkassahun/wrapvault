@@ -1,5 +1,5 @@
 -- ============================================
--- WrapVault Database Schema
+-- CarFilmBros Database Schema
 -- Run this in Supabase Dashboard > SQL Editor
 -- ============================================
 

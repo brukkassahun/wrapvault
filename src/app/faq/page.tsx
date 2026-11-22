@@ -195,7 +195,7 @@ export default function FAQPage() {
           </div>
           <div className="flex flex-col gap-3 sm:flex-row">
             <a
-              href={whatsappLink("Hello WrapVault, I have a question about your wrap films.")}
+              href={whatsappLink("Hello CarFilmBros, I have a question about your wrap films.")}
               target="_blank"
               rel="noopener noreferrer"
               className="btn-signal !py-2.5 text-[11px]"

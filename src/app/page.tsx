@@ -460,7 +460,7 @@ export default async function HomePage() {
           </p>
           <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:justify-center">
             <a
-              href={whatsappLink(`Hello WrapVault, I'd like to find the perfect wrap color for my vehicle. Can you help?`)}
+              href={whatsappLink(`Hello CarFilmBros, I'd like to find the perfect wrap color for my vehicle. Can you help?`)}
               target="_blank"
               rel="noopener noreferrer"
               className="btn-signal"

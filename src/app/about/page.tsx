@@ -3,7 +3,7 @@ import { whatsappLink, site } from "@/lib/site";
 import Reveal from "@/components/Reveal";
 
 export const metadata = {
-  title: "About WrapVault",
+  title: "About CarFilmBros",
   description:
     "Factory-direct car wrap and PPF films. 100,000m² production facility, 15+ years of experience, ISO 9001 & IATF 16949 certified. 700+ colors shipped worldwide.",
 };
@@ -30,7 +30,7 @@ export default function AboutPage() {
               <span className="text-vault">Obsessed</span> with Color
             </h1>
             <p className="mt-6 text-base leading-relaxed text-silver">
-              WrapVault exists for one reason: to give the world access to
+              CarFilmBros exists for one reason: to give the world access to
               factory-direct, automotive-grade wrap films without the middleman
               markup. We manufacture, we quality-check, we ship — straight from
               our production lines to your doorstep, anywhere on the planet.
@@ -80,7 +80,7 @@ export default function AboutPage() {
                     across two distinct film technologies.
                   </p>
                   <p>
-                    WrapVault is our direct-to-market brand — no distributors,
+                    CarFilmBros is our direct-to-market brand — no distributors,
                     no importers, no retail markups. You buy from the people
                     who make the film. That means better pricing, deeper stock,
                     and direct technical support from the engineers who designed
@@ -292,7 +292,7 @@ export default function AboutPage() {
               Browse the Catalog
             </Link>
             <a
-              href={whatsappLink("Hello WrapVault, I'd like to learn more about your company and films.")}
+              href={whatsappLink("Hello CarFilmBros, I'd like to learn more about your company and films.")}
               target="_blank"
               rel="noopener noreferrer"
               className="btn-signal"

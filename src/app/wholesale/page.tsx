@@ -37,7 +37,7 @@ export default function WholesalePage() {
             </p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
               <a
-                href={whatsappLink("Hello WrapVault, I'd like to discuss wholesale pricing and bulk orders.")}
+                href={whatsappLink("Hello CarFilmBros, I'd like to discuss wholesale pricing and bulk orders.")}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-signal"
@@ -64,7 +64,7 @@ export default function WholesalePage() {
             <p className="eyebrow mb-3">
               <span className="text-vault">●</span> Wholesale Benefits
             </p>
-            <h2 className="display-lg text-silver-bright">Why Buy Bulk from WrapVault?</h2>
+            <h2 className="display-lg text-silver-bright">Why Buy Bulk from CarFilmBros?</h2>
           </div>
 
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
@@ -218,7 +218,7 @@ export default function WholesalePage() {
               Prefer to talk directly? Our wholesale team is on WhatsApp.
             </p>
             <a
-              href={whatsappLink("Hello WrapVault, I'd like to discuss wholesale pricing and bulk orders.")}
+              href={whatsappLink("Hello CarFilmBros, I'd like to discuss wholesale pricing and bulk orders.")}
               target="_blank"
               rel="noopener noreferrer"
               className="btn-signal !py-2.5 text-[11px]"

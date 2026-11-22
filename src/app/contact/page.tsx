@@ -6,7 +6,7 @@ import Reveal from "@/components/Reveal";
 export const metadata = {
   title: "Contact Us",
   description:
-    "Get in touch with WrapVault. WhatsApp, WeChat, email, or send us a message. We respond within 24 hours.",
+    "Get in touch with CarFilmBros. WhatsApp, WeChat, email, or send us a message. We respond within 24 hours.",
 };
 
 export default function ContactPage() {
@@ -37,7 +37,7 @@ export default function ContactPage() {
             {/* WhatsApp */}
             <Reveal>
               <a
-                href={whatsappLink("Hello WrapVault, I'd like to inquire about your wrap films.")}
+                href={whatsappLink("Hello CarFilmBros, I'd like to inquire about your wrap films.")}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="card-dark group block p-6 transition-all hover:border-signal/40"
